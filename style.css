@@ -1,0 +1,73 @@
+html, body {
+	height: 100%;
+
+}
+
+body, #page {
+	margin: 0;
+	font-family: Courier, sf-text, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.text-1 {
+	margin: auto;
+	width: 60%;
+}
+
+p {
+	margin-top: 0px;
+}
+
+img {
+	width: 100%;
+}
+
+.fullscreen {
+	/* width: auto; */
+	height: auto;
+}
+
+.img-container {
+	padding-bottom: 15px;
+}
+
+.img-container-2 {
+	margin: auto;
+	width: 60%;
+	padding-bottom: 15px;
+}
+
+a:link,
+a:visited {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+	color:#FFF;
+}
+
+header {
+	position: relative;
+	padding: 20px;
+}
+
+header.homepage {
+	z-index: 10;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 20px;
+	margin: 0px;
+}
+
+ul:first-child {
+	padding-left: 0px;
+}
+
